@@ -1,0 +1,299 @@
+
+*{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    list-style: none;
+    
+}
+.infor{
+    display: flex;
+    width: 30px;
+    justify-content: space-between;
+
+}
+.box{
+   margin: 2em;
+    display: flex;
+    width: 100%;
+    
+   
+}
+
+.imgTopo{
+    border-radius: 100px;
+    margin: 1rem;
+    width: 300%;
+    
+}
+.pesquisa{
+    display: flex;
+    justify-content:space-between;
+    width: 10px;
+    padding-right: 10rem;
+    padding-left: 12rem;
+    
+    
+}
+.ps{
+    margin-bottom: 2rem;
+}
+.letras{
+    
+    size: 1opx;
+    
+    text-align: center;
+   /*background-color: brown;*/
+    margin-top: 40px;
+    
+    
+}
+img{
+    margin-bottom: 5rem;    
+}
+.gira{
+    margin-top: 5rem;
+    margin-left: 20em;
+}
+.carta{
+    margin-top: 5rem;
+    margin-left: 10em;
+    padding-right: 5rem;
+}
+.preto{
+    background-image: linear-gradient(to right,#2A9B80,orangered,rgb(175, 175, 35));
+    background-size: 100vw 100vw;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 10rem;
+    margin-right: 30px;
+    border-radius: 60px;
+    width: 100vw;
+    
+}
+@keyframes maneiro {
+    0%{
+       background-position-x: 0%; 
+    }
+    100%{
+        background-position-x:10% ;
+    }
+}
+.sorriso{
+    text-align: center;
+    padding-top: 3em;
+    margin-left: 25rem;
+    
+}
+@keyframes letra {
+    from{
+        width: 0;
+    }
+    to{
+        width: 89%;
+    }
+}
+.auto{
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #0f0e0e;
+    animation: letra 10s steps(100, end) infinite;
+}
+@keyframes letra1 {
+    from{
+        width: 0;
+    }
+    to{
+        width: 88%;
+    }
+}
+.auto1{
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #333;
+    animation: letra1 10s steps(160, end) infinite;
+}
+.preto h1{
+    padding-top: 3rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-family: cursive;
+    
+}
+.sor {
+    padding-left: 5rem;
+    font-family: cursive;
+}
+@media screen and (max-width:730px) { 
+    .pri {
+        width: 100%;
+       
+
+    }
+}
+.pri{
+    
+    justify-content: space-between;
+    width: 100%;
+}
+.menu{
+    justify-content: center;
+    padding-left: 10rem;
+}
+.seta{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.botões{
+    color: white;
+    background-color: yellow;
+    height: 10px;
+    text-decoration: none;
+}
+.c1{
+    margin-left: 2rem;
+}
+.bra{
+    color: white;
+}
+.c2{
+    margin-left: 3rem;
+}
+.c4{
+    margin-left: 0;
+    margin-right: 20rem;
+}
+.c3{
+
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.quemsomos{
+    margin-bottom: 2em;
+    height: 35em;
+    justify-content: center;
+    font-family: Reklame Script,Reklame-Script-Fallback,serif;;
+    overflow: hidden;
+    cursor: pointer;
+}
+.dizeres{
+    width: 75rem; 
+}
+.dizeres p{
+    height: 0px;
+}
+.dizeres strong{
+    justify-content: center;
+}
+.subt{
+    text-align: left;
+    font-size: 30px;
+    background-color: #2dc3ff;
+}
+.bol{
+    background: #0c192c;
+    position: relative;
+    width: 100vw;
+}
+.bolhas{
+    position: absolute;
+    display: flex;
+}
+.bolhas span{
+    width: 30px;
+    height: 30px;
+    background: #e5ff00;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #e5ff0044,  0 0  50px #e5ff00,  0 0  100px #e5ff00;
+    animation: animar calc(150s/ var(--i)) 15s linear infinite;*/
+}
+@keyframes animar {
+    0%{
+        transform: translate(100vh) scale(0);
+
+    }
+    100%{
+        transform: translate(-10vh) scale(1);
+
+
+    }
+}
+.bolhas span:nth-of-type(even){
+    background: #2dc3ff;
+    box-shadow: 0 0 0 10px #e5ff0044,  0 0  50px #2dc3ff,  0 0  100px #2dc3ff;
+}
+.efeito2{
+    background-image: url(./fundo\ quem\ somos.webp);
+   
+    background-attachment: fixed;
+}
+.efeito1{
+    background-image: url(./crianças\ a\ comer.jpg);
+    
+    background-attachment: fixed;
+}
+
+.anolec{
+    margin-top: 10rem;
+    margin-bottom: 5em;
+    height: 35em;
+    justify-content: center;
+    /*font-family: Reklame Script,Reklame-Script-Fallback,serif;*/
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.informac{
+    margin-top: 10rem;
+    margin-bottom: 5em;
+    height: 35em;
+    justify-content: center;
+    font-family: Reklame Script,Reklame-Script-Fallback,serif;;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.efeito3{
+    background-image: url(profissão\ 2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.efeito4{
+    background-image: url(./fundo\ 2.webp);
+    background-size: cover;
+   
+    background-attachment: fixed;
+}
+.noticias{
+    margin-top: 10rem;
+    margin-bottom: 5em;
+    height: 35em;
+    justify-content: center;
+    font-family: Reklame Script,Reklame-Script-Fallback,serif;;
+    overflow: hidden;
+    cursor: pointer;
+    background-attachment: fixed;
+
+}
+
+.roda{
+    background-attachment: fixed;
+    height: 300px;
+    
+}
+.roda strong{
+    text-align: center;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+.dir{
+    padding-left: 70px;
+}
+.
